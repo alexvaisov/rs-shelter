@@ -107,3 +107,37 @@ a:hover {
 
   padding-bottom: 40px;
 }
+
+/* -------------------About style------------------------- */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1280px;
+  height: auto;
+
+  padding-top: 60px;
+}
+
+.about_img {
+  width: 300px;
+  height: 408px;
+}
+
+.about_text {
+  text-align: center;
+  width: 430px;
+  height: 380px;
+}
+
+.about_text h3 {
+  color: #545454;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.about_text p {
+  color: #4C4C4C;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
