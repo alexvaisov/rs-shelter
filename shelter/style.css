@@ -264,3 +264,63 @@ a:hover {
   padding-top: 15px;
   color: #4C4C4C;
 }
+
+/* -------------------In addition style------------------------- */
+.in-addition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1280px;
+  height: 462px;
+  background-color: #F6F6F6;
+}
+
+.in-addition__img {
+  width: 505px;
+  height: 261px;
+}
+
+.in-addition__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 380px;
+  height: 282px;
+}
+
+.credit-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 394px;
+  height: 43px;
+  background-color: #F1CDB3;
+  border-radius: 10px;
+  font-size: 26px;
+
+}
+
+.credit-card span {
+  color: #545454;
+  padding-left: 10px;
+}
+
+.in-addition__info h3 {
+  color: #545454;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.info {
+  color: #545454;
+  font-size: 20px;
+}
+
+.pay-info {
+  color: #B2B2B2;
+  font-size: 14px;
+}
