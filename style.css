@@ -12,7 +12,7 @@ body {
   position: sticky;
   top: 0;
 
-  background-image: url(/shelter/img/start-screen-gradient-background.jpg);
+  background-image: url(/img/start-screen-gradient-background.jpg);
 }
 
 .header__logo {
@@ -76,7 +76,7 @@ a:hover {
   align-items: center;
   width: 1280px;
   height: auto;
-  background-image: url(/shelter/img/start-screen-gradient-background.jpg);
+  background-image: url(/img/start-screen-gradient-background.jpg);
 }
 
 .not-only__content {
@@ -333,7 +333,7 @@ a:hover {
   width: 1280px;
   height: 350px;
 
-  background-image: url(/shelter/img/start-screen-gradient-background.jpg);
+  background-image: url(/img/start-screen-gradient-background.jpg);
 }
 
 .contacts {
