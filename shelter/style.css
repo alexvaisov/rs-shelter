@@ -2,7 +2,7 @@ body {
   width: 1280px;
   margin: 0 auto;
 }
-/* -------------------Header style-------------------------*/
+/* -------------------Header style------------------------- */
 .header {
   display: flex;
   justify-content: space-between;
@@ -62,4 +62,48 @@ a:hover {
   color: #FAFAFA;
   border-bottom: 1px solid #6a4a4a;
   animation-delay: unset;
+}
+
+/* -------------------Main style------------------------- */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* -------------------Not Only style------------------------- */
+.not-only {
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: auto;
+  background-image: url(/shelter/img/start-screen-gradient-background.jpg);
+}
+
+.not-only__content {
+  width: 460px;
+  height: 322px;
+  margin-left: 25px; 
+}
+
+.button {
+  width: 207px;
+  height: 52px;
+  background-color: #F1CDB3;
+  border-radius: 30px;
+  border-width: 0;
+  cursor: pointer;
+
+  align-items: center;
+}
+
+.content_text h1 {
+  font-size: 30px;
+  color: #FAFAFA;
+
+  padding-bottom: 40px;
+}
+.content_text p {
+  color:#CDCDCD;
+
+  padding-bottom: 40px;
 }
