@@ -141,3 +141,82 @@ a:hover {
   font-size: 15px;
   padding-bottom: 30px;
 }
+
+/* -------------------Our Friends style------------------------- */
+.our-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1280px;
+  height: 870px;
+  padding-top: 100px;
+  background-color: #F6F6F6;
+}
+
+.our-friends__card {
+  width: 1200px;
+  height: 697px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 279px;
+  height: 475px;
+
+  background-color: #FAFAFA;
+}
+
+.card__but {
+  width: 187px;
+  height: 52px;
+  background-color: #ffffff;
+  border-color: #F1CDB3;
+  border-radius: 30px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.card__but:active {
+  background-color: #FDDCC4;
+}
+
+.our-friends__but {
+  width: 52px;
+  height: 52px;
+  background-color: #ffffff;
+  border-color: #F1CDB3;
+  border-radius: 60%;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.our-friends__but:active {
+  background-color: #FDDCC4;
+}
+
+.our-friends_but {
+  width: 261px;
+  height: 52px;
+  align-items: center;
+  background-color: #F1CDB3;
+  border-radius: 30px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.our-friends__but:active {
+  background-color: #FDDCC4;
+}
+
+.our-friends__text {
+  color: #545454;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
