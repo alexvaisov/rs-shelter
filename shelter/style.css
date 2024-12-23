@@ -2,6 +2,7 @@ body {
   width: 1280px;
   margin: 0 auto;
 }
+/* -------------------Header style-------------------------*/
 .header {
   display: flex;
   justify-content: space-between;
