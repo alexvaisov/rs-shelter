@@ -1,0 +1,64 @@
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  height: 60px;
+  position: sticky;
+  top: 0;
+
+  background-image: url(/shelter/img/start-screen-gradient-background.jpg);
+}
+
+.header__logo {
+  margin: 25px 0 25px 25px ;
+}
+
+.logo_title {
+  color: #F1CDB3;
+}
+
+.nav_bar {
+  margin: 25px 25px 25px 0;
+}
+
+.logo_text {
+  color: #FAFAFA;
+  text-align: center;
+
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+
+.link {
+  padding-left: 25px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #CDCDCD;
+}
+
+a:link {
+  color: #F1CDB3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #FAFAFA;
+  border-bottom: 1px solid #6a4a4a;
+  animation-delay: unset;
+}
