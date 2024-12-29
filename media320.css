@@ -1,0 +1,150 @@
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+/* -------------------Header style 320------------------------- */
+    .header {
+        width: 320px;
+    }
+
+    #burger-toggle {
+        display: none;
+        position: relative;
+        width: 30px;
+        height: 25px;
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+/* -------------------Not Only style 320------------------------- */
+    .not-only {
+        width: 320px;
+    }
+
+    .not-only__content {
+        width: 300px;
+        height: 296px;
+    }
+
+    .not-only__img {
+        display: flex;
+        align-items: end;
+
+        width: 300px;
+        height: 377px;
+    }
+
+/* -------------------About style 320------------------------- */
+    .about {
+        width: 320px;
+    }
+
+    .about_text {
+        width: 300px;
+        height: 494px;
+    }
+
+    .about_img {
+        width: 260px;
+        height: 353px;
+    }
+
+/* -------------------Our Friends style 320------------------------- */
+    .our-friends {
+        width: 320px;
+        height: 870px;
+    }
+
+    .our-friends__card {
+        flex-wrap: wrap;
+
+        width: 270px;
+        height: 507px;
+    }
+
+    #jennifer {
+        display: none;
+    }
+
+    .back {
+        order: 1;
+    }
+
+    .next {
+        order: 2;
+    }
+
+/* -------------------Help style 320------------------------- */
+    .help {
+        width: 320px;
+        height: 745px;
+    }
+
+    .help__cards {
+        width: 320px;
+        height: 550px;
+    }
+
+    .help-card {
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .help__title h3 {
+        font-size: 20px;
+    }
+
+/* -------------------In addition style 320------------------------- */
+    .in-addition {
+        width: 320px;
+    }
+
+    .in-addition__img {
+        width: 260px;
+        height: 136px;
+    }
+
+    .credit-card {
+        width: 281px;
+
+        font-size: 18px;
+    }
+
+    .credit-card span {
+        padding-left: 5px;
+    }
+
+    .in-addition__info {
+        width: 300px;
+        height: 281px;
+        margin-left: 10px;
+    }
+
+    .in-addition__info h3 {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 18px;
+    }
+
+    .pay-info {
+        display: block;
+        max-width: 300px;
+        text-align: center;
+    }
+
+/* -------------------Footer style 320------------------------- */
+    .footer {
+        width: 320px;
+        height: 809px;
+    }
+
+    .contacts {
+        width: 320px;
+        height: auto;
+    }
+}

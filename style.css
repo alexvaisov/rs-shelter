@@ -27,6 +27,10 @@ body {
   margin: 25px 25px 25px 0;
 }
 
+#burger-toggle {
+  display: none;
+}
+
 .logo_text {
   color: #FAFAFA;
   text-align: center;
