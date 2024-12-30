@@ -1,13 +1,15 @@
 body {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
+
+  background-image: url(img/start-screen-gradient-background.jpg);
 }
 /* -------------------Header style------------------------- */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1280px;
+  max-width: 1280px;
   height: 60px;
   position: sticky;
   top: 0;
@@ -69,22 +71,22 @@ a:hover {
 }
 
 /* -------------------Main style------------------------- */
-.main {
+/*.main {
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 
 /* -------------------Not Only style------------------------- */
 .not-only {
   display: flex;
   align-items: center;
-  width: 1280px;
+  max-width: 1280px;
   height: auto;
   background-image: url(img/start-screen-gradient-background.jpg);
 }
 
 .not-only__content {
-  width: 460px;
+  max-width: 460px;
   height: 322px;
   margin-left: 25px; 
 }
@@ -117,21 +119,21 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 1280px;
+  max-width: 1280px;
   height: auto;
-
+  background-color: white;
   padding-top: 60px;
 }
 
 .about_img {
-  width: 300px;
-  height: 408px;
+  max-width: 300px;
+  max-height: 408px;
 }
 
 .about_text {
   text-align: center;
-  width: 430px;
-  height: 380px;
+  max-width: 430px;
+  max-height: 380px;
 }
 
 .about_text h3 {
@@ -152,14 +154,14 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 1280px;
+  max-width: 1280px;
   height: 870px;
   padding-top: 100px;
   background-color: #F6F6F6;
 }
 
 .our-friends__card {
-  width: 1200px;
+  max-width: 1200px;
   height: 697px;
   display: flex;
   align-items: center;
@@ -230,8 +232,10 @@ a:hover {
   display: flex;
   flex-direction: column;
 
-  width: 1280px;
+  max-width: 1280px;
   height: 431px;
+
+  background-color: white;
 }
 
 .help__cards {
@@ -239,7 +243,7 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
 
-  width: 1280px;
+  max-width: 1280px;
   height: 281px;
 }
 
@@ -275,14 +279,14 @@ a:hover {
   justify-content: center;
   align-items: center;
 
-  width: 1280px;
+  max-width: 1280px;
   height: 462px;
   background-color: #F6F6F6;
 }
 
 .in-addition__img {
-  width: 505px;
-  height: 261px;
+  max-width: 505px;
+  height: auto;
 }
 
 .in-addition__info {
@@ -290,8 +294,8 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  width: 380px;
-  height: 282px;
+  max-width: 380px;
+  height: auto;
 }
 
 .credit-card {
@@ -334,10 +338,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: end;
-  width: 1280px;
+  max-width: 1280px;
   height: 350px;
-
-  background-image: url(img/start-screen-gradient-background.jpg);
 }
 
 .contacts {
@@ -345,7 +347,7 @@ a:hover {
   justify-content: space-around;
   align-items: center;
 
-  width: 1200px;
+  max-width: 1200px;
   height: 310px;
 }
 
