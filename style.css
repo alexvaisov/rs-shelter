@@ -25,11 +25,16 @@ body {
   color: #F1CDB3;
 }
 
-.nav_bar {
+.burger-menu {
+  position: relative;
+  padding-right: 15px;
+}
+
+.menu {
   margin: 25px 25px 25px 0;
 }
 
-#burger-toggle {
+#menu-toggle {
   display: none;
 }
 
@@ -37,17 +42,6 @@ body {
   color: #FAFAFA;
   text-align: center;
 
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-decoration: none;
-}
-
-.link {
-  padding-left: 25px;
 }
 
 .link a {
@@ -68,6 +62,20 @@ a:hover {
   color: #FAFAFA;
   border-bottom: 1px solid #6a4a4a;
   animation-delay: unset;
+}
+
+@media (min-width: 431px){
+  .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+  }
+  
+  .link {
+    padding-left: 25px;
+  }
+  
 }
 
 /* -------------------Main style------------------------- */
@@ -231,9 +239,9 @@ a:hover {
 .help {
   display: flex;
   flex-direction: column;
+  gap: 35px;
 
   max-width: 1280px;
-  height: 431px;
 
   background-color: white;
 }
@@ -242,14 +250,15 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
 
   max-width: 1280px;
   height: 281px;
 }
 
 .help-card {
-  padding-top: 50px;
-  padding-left: 150px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -304,7 +313,7 @@ a:hover {
   align-items: center;
   justify-content: center;
 
-  width: 394px;
+  max-width: 394px;
   height: 43px;
   background-color: #F1CDB3;
   border-radius: 10px;

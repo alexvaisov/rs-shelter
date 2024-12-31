@@ -3,20 +3,27 @@
         display: none;
     }
 }
+
+@media (max-width: 558px) {
+    #jennifer {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     body {
-        width: 768px;
+        max-width: 768px;
     }
 
 /* -------------------Header style 768------------------------- */
     .header {
-        width: 768px;
+        max-width: 768px;
     }
 
 /* -------------------Not Only style 768------------------------- */
     .not-only {
         flex-direction: column;
-        width: 768px;
+        max-width: 768px;
         padding-top: 50px;
     }
 
@@ -27,17 +34,17 @@
 /* -------------------About style 768------------------------- */
     .about {
         flex-direction: column-reverse;
-        width: 768px;
+        max-width: 768px;
     }
 
 /* -------------------Our Friends style 768------------------------- */ 
     .our-friends {
-        width: 768px;
+        max-width: 768px;
         height: auto;
     }
 
     .our-friends__card {
-        width: 708px;
+        max-width: 708px;
         height: 435px;
 
         padding-bottom: 30px;
@@ -49,37 +56,33 @@
 
 /* -------------------Help style 768------------------------- */
     .help {
-        width: 768px;
-        height: 799px;
+        max-width: 768px;
     }
 
     .help__cards {
-        width: 768px;
+        max-width: 768px;
         height: auto;
     }
 
-    .help-card {
-        padding-left: 140px;
-    }
 
 /* -------------------In addition style------------------------- */ 
     .in-addition {
         flex-direction: column-reverse;
 
-        width: 768px;
+        max-width: 768px;
         height: 783px;
     }
 
 /* -------------------Footer style------------------------- */
     .footer {
-        width: 768px;
+        max-width: 768px;
         height: 639px;
     }
 
     .contacts {
         flex-wrap: wrap;
 
-        width: 708px;
+        max-width: 708px;
         height: 693px;
         padding-top: 100px;
     }
