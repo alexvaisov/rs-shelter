@@ -1,0 +1,33 @@
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    display: flex;
+    width: 682px;
+    height: 402px;
+    background-color: white;
+}
+
+.modal_img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.modal_text {
+    max-width: 260px;
+    height: 303px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}

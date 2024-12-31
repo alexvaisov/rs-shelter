@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="media768.css">
     <link rel="stylesheet" href="media375.css">
     <link rel="stylesheet" href="media320.css">
+    <link rel="stylesheet" href="modal.css">
     
   </head>
   <body>
@@ -67,6 +68,67 @@
       </section>
 
       <section class="our-friends" id="pets">
+
+        <div class="modal hide" id="sing-in-katrine">
+          <button class="modal-close" data-modal="#sing-in-katrine">Close</button>
+          <div class="modal-content">
+            <div class="modal_img">
+              <img src="/img/pets-katrine.png" alt="Katrine">
+            </div>
+            <div class="modal_text">
+              <h3>Katrine</h3>
+              <h4>Cat - British Shorthair</h4>
+              <p>Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.</p>
+              <ul>
+                <li>Age: 2 months</li>
+                <li>Inoculations: none</li>
+                <li>Diseases: none</li>
+                <li>Parasites: none</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal hide" id="sing-in-jennifer">
+          <button class="modal-close" data-modal="#sing-in-jennifer">Close</button>
+          <div class="modal-content">
+            <div class="modal_img">
+              <img src="/img/pets-jennifer.png" alt="Jennifer">
+            </div>
+            <div class="modal_text">
+              <h3>Jennifer</h3>
+              <h4>Dog - Labrador</h4>
+              <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+              <ul>
+                <li>Age: 2 months</li>
+                <li>Inoculations: none</li>
+                <li>Diseases: none</li>
+                <li>Parasites: none</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal hide" id="sing-in-woody">
+          <button class="modal-close" data-modal="#sing-in-woody">Close</button>
+          <div class="modal-content">
+            <div class="modal_img">
+              <img src="/img/pets-woody.png" alt="Woody">
+            </div>
+            <div class="modal_text">
+              <h3>Woody</h3>
+              <h4>Dog - Golden Retriever</h4>
+              <p>Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.</p>
+              <ul>
+                <li>Age: 2 months</li>
+                <li>Inoculations: none</li>
+                <li>Diseases: none</li>
+                <li>Parasites: none</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div class="our-friends__text">
           <h3>Our friends who
             are looking for a house</h3>
@@ -76,17 +138,17 @@
           <div class="card" id="katrine">
             <img src="img/pets-katrine.png" alt="Katrine">
             <p>Katrine</p>
-            <button class="card__but">Learn more</button>
+            <button class="card__but" data-modal="#sing-in-katrine">Learn more</button>
           </div>
           <div class="card" id="jennifer">
             <img src="img/pets-jennifer.png" alt="Jennifer">
             <p>Jennifer</p>
-            <button class="card__but">Learn more</button>
+            <button class="card__but" data-modal="#sing-in-jennifer">Learn more</button>
           </div>
           <div class="card" id="woody">
             <img src="img/pets-woody.png" alt="Woody">
             <p>Woody</p>
-            <button class="card__but">Learn more</button>
+            <button class="card__but" data-modal="#sing-in-woody">Learn more</button>
           </div>
           <button class="our-friends__but next">&#8594;</button>
         </div>
@@ -172,6 +234,8 @@
         </div>
       </section>
     </footer>
-    <script src="/main.js"></script>
+
+    <script src="main.js"></script>
+    <script src="modal.js"></script>
   </body>
 </html>
