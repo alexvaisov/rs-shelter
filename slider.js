@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 container.style.transition = 'none';
                 container.style.transform = `translateX(0px)`;
                 setTimeout(function(){
-                    container.style.transition = 'transform 0.5s ease';
+                    container.style.transition = 'transform 0.9s ease';
                 }, 50);
             } else {
                 currentIndex++;
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
             container.style.transition = 'none';
             container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
             setTimeout(function() {
-                container.style.transition = 'transform 0.5s ease';
+                container.style.transition = 'transform 0.9s ease';
             }, 50);
         } else {
             currentIndex--;

@@ -248,7 +248,10 @@ a:hover {
 }
 
 .our-friends__text {
-  color: #545454;
+    max-width: 400px;
+    color: #545454;
+
+    text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
 }
@@ -261,6 +264,8 @@ a:hover {
 .slider {
   display: flex;
   align-items: center;
+
+  transition: transform 0.9s ease;
   /* margin: 0 49px 0 49px; */
 }
 
@@ -268,6 +273,7 @@ a:hover {
 .help {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 35px;
 
   max-width: 1280px;
@@ -298,8 +304,9 @@ a:hover {
 
 .help__title {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+
+  max-width: 308px;
 }
 
 .help__title h3 {
