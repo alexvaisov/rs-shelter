@@ -77,6 +77,10 @@
         order: 2;
     }
 
+    .modal_img {
+        display: none;
+    }
+
 /* -------------------Help style 320------------------------- */
     .help {
         width: 320px;

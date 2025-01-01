@@ -1,15 +1,3 @@
-@media (max-width: 942px) {
-    #woody {
-        display: none;
-    }
-}
-
-@media (max-width: 558px) {
-    #jennifer {
-        display: none;
-    }
-}
-
 @media (max-width: 768px) {
     body {
         max-width: 768px;
@@ -39,12 +27,11 @@
 
 /* -------------------Our Friends style 768------------------------- */ 
     .our-friends {
-        max-width: 768px;
         height: auto;
     }
 
     .our-friends__card {
-        max-width: 708px;
+        max-width: 100%;
         height: 435px;
 
         padding-bottom: 30px;

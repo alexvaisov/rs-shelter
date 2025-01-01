@@ -82,4 +82,8 @@
         height: 30px;
         background: #F1CDB3;
       }
+
+      .modal_img {
+        display: none;
+      }
 }
