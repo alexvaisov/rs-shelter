@@ -21,6 +21,8 @@
 
 .modal-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     max-height: 402px;
     background-color: white;
@@ -52,7 +54,7 @@
     cursor: pointer;
 
     position: relative;
-    top: 30%;
+    top: 37%;
 
 }
 

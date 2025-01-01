@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let items = document.querySelectorAll('.card');
     let currentIndex = 0;
     const totalItems = items.length;
-    const itemWidth = 279;
+    const itemWidth = 285;
 
     if (sliderNext) {
         sliderNext.addEventListener('click', function() {
-            if (currentIndex >= items.length - 1) {
+            if (currentIndex >= items.length - 3) {
                 currentIndex = 0;
                 container.style.transition = 'none';
                 container.style.transform = `translateX(0px)`;
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sliderBack.addEventListener('click', function () {
         if (currentIndex <= 0) {
-            currentIndex = totalItems - 1;
+            currentIndex = totalItems - 3;
             container.style.transition = 'none';
             container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
             setTimeout(function() {

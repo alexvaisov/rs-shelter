@@ -4,6 +4,12 @@ body {
 
   background-image: url(img/start-screen-gradient-background.jpg);
 }
+h1, h2, h3, h4, h5, h6 button {
+  font-family: Georgia, san-serif;
+}
+p, a {
+  font-family: Aliel, san-serif;
+}
 /* -------------------Header style------------------------- */
 .header {
   display: flex;
@@ -243,7 +249,7 @@ a:hover {
 }
 
 .wrapper {
-  max-width: 757px;
+  max-width: 855px;
   overflow: hidden;
 }
 
