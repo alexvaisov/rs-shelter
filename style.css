@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 button {
 p, a {
   font-family: Aliel, san-serif;
 }
+button {
+  text-decoration: none;
+}
 /* -------------------Header style------------------------- */
 .header {
   display: flex;
