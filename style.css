@@ -122,6 +122,8 @@ a:hover {
 }
 
 .content_text h1 {
+  max-width: 310px;
+  text-align: start;
   font-size: 30px;
   color: #FAFAFA;
 
