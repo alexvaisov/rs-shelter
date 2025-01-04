@@ -21,7 +21,7 @@
          <p class="logo_text">Shelter for pets in Boston</p>
       </div>
       <div class="burger-menu" data-burger="#sing-in">
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" data-burger="#sing-in" id="menu-toggle">
           <label for="menu-toggle" class="menu-icon">
             <span></span>
             <span></span>
@@ -30,10 +30,10 @@
 
         <nav class="menu">
           <ul class="links">
-            <li class="link"><a href="#about">About the shelter</a></li>
-            <li class="link"><a href="#">Our pets</a></li>
-            <li class="link"><a href="#help">Help the shelter</a></li>
-            <li class="link"><a href="#contacts">Contacts</a></li>
+            <li class="link"><a class="menu-link" href="#about">About the shelter</a></li>
+            <li class="link"><a class="menu-link" href="/pets/pets.html">Our pets</a></li>
+            <li class="link"><a class="menu-link" href="#help">Help the shelter</a></li>
+            <li class="link"><a class="menu-link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -235,8 +235,8 @@
         </div>
         <div class="our-friends__card">
           <button class="our-friends__but back" data-slider="#slider-back" id="slider-back">&#8592;</button>
-          <div class="wrapper">
-            <div class="slider">
+          <div class="wrapper" id="wrapper">
+            <div class="slider" id="slider">
               <div class="card" id="katrine">
                 <img src="img/pets-katrine.png" alt="Katrine">
                 <p>Katrine</p>
