@@ -8,14 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const elementWrapper = document.getElementById('wrapper');
     const styleWrapper = window.getComputedStyle(elementWrapper);
     const widthWrapper = styleWrapper.width;
-    console.log(widthWrapper);
     const elementSlider = document.getElementById('slider');
     const styleSlider = window.getComputedStyle(elementSlider);
     const gapSlider = styleSlider.gap;
-    console.log(gapSlider.slice(0, -2));
     let sum = gapSlider.slice(0, -2) * 1 + 270;
     const itemWidth = sum;
-    console.log(itemWidth);
     let stepItem = null;
     function step() {
         if ((widthWrapper.slice(0, -2) * 1) <= 279) {
@@ -27,10 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
     step();
-    console.log(stepItem);
 
     if (sliderNext) {
-        sliderNext.addEventListener('click', function() {
+        sliderNext.addEventListener('click', function () {
             if (currentIndex >= items.length - stepItem) {
                 currentIndex = 0;
                 container.style.transition = 'none';
@@ -58,5 +54,5 @@ document.addEventListener('DOMContentLoaded', function () {
             container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
         }
     });
-    
+ 
 });

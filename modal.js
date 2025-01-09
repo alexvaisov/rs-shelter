@@ -14,14 +14,20 @@ document.querySelectorAll('.modal').forEach(function(element){
 function showModal(){
     let modalId = this.dataset.modal;
     document.querySelector(modalId).classList.remove('hide');
+    document.body.style.overflow = 'hidden';
+    document.body.style.background = 'rgba(0, 0, 0, 0.575)';
+
 };
 
 function closeModal(){
     let modalId = this.dataset.modal;
     document.querySelector(modalId).classList.add('hide');
-    
+    document.body.style.overflow = '';
+    document.body.style.background = '';
 };
 
 function closeModalWrap(){
     this.classList.add('hide');
+    document.body.style.overflow = '';
+    document.body.style.background = '';
 };
