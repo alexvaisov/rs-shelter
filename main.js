@@ -6,8 +6,3 @@ function closeBurger(){
     const checkbox = document.getElementById('menu-toggle');
     checkbox.checked = false;
 }
-
-window.addEventListener('resize', () => {
-    window.location.reload();
-  });
-  
