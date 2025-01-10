@@ -16,7 +16,6 @@ function showModal(){
     document.querySelector(modalId).classList.remove('hide');
     document.body.style.overflow = 'hidden';
     document.body.style.background = 'rgba(0, 0, 0, 0.575)';
-
 };
 
 function closeModal(){

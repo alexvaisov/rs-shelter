@@ -16,12 +16,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const itemWidth = sum;
     let stepItem = null;
     function step() {
-        if ((widthWrapper.slice(0, -2) * 1) <= 279) {
-            stepItem = 1;
-        } else if ((widthWrapper.slice(0, -2) * 1) <= 570) {
-            stepItem = 2;
+        if ((widthWrapper.slice(0, -2) * 1) <= 320) {
+            stepItem = 6;
+        } else if ((widthWrapper.slice(0, -2) * 1) <= 580) {
+            stepItem = 7;
         } else {
-            stepItem = 3;
+            stepItem = sliderNext.disabled = true;
+            stepItem = sliderBack.disabled = true;
         }
     };
     step();
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sliderNext) {
         sliderNext.addEventListener('click', function () {
             if (currentIndex >= items.length - stepItem) {
+                counterButton.textContent = + 1;
                 currentIndex = 0;
                 container.style.transition = 'none';
                 container.style.transform = `translateX(0px)`;
@@ -38,12 +40,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             } else {
                 currentIndex++;
+
                 container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
             }
         });
     };
 
     sliderBack.addEventListener('click', function () {
+        counterButton.textContent = (currentIndex + 1) - 1;
         if (currentIndex <= 0) {
             currentIndex = totalItems - stepItem;
             container.style.transition = 'none';

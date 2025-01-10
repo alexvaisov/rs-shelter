@@ -81,6 +81,13 @@ body {
     text-decoration: none;
   }
 
+  @media (max-width: 768px) {
+    .header_pets{
+      max-width: 768px;
+      z-index: 10;
+    }
+  }
+
 @media (min-width: 431px){
     .links {
       display: flex;
@@ -206,8 +213,106 @@ body {
   border-style: solid;
 }
 
-.counter {
+#counter {
   background-color: #F1CDB3;
+}
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    max-width: 580px;
+    overflow: hidden;
+  
+  }
+
+
+  .slider {
+    width: 580px;
+    height: 1390px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .item1 {
+    order: 1;
+  }
+  .item2 {
+    order: 2;
+  }
+  .item3 {
+    order: 4;
+  }
+  .item4 {
+    order: 5;
+  }
+  .item5 {
+    order: 7;
+  }
+  .item6 {
+    order: 8;
+  }
+  .item7 {
+    order: 3;
+  }
+  .item8 {
+    order: 6;
+  }
+
+}
+
+@media (max-width: 586px) {
+  .slider {
+    width: 270px;
+    height: 1390px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .wrapper {
+    max-width: 320px;
+    overflow: hidden;
+  
+  }
+
+
+  .slider {
+    width: 270px;
+    height: 1390px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .item1 {
+    order: 1;
+  }
+  .item2 {
+    order: 4;
+  }
+  .item3 {
+    order: 7;
+  }
+  .item4 {
+    order: 2;
+  }
+  .item5 {
+    order: 3;
+  }
+  .item6 {
+    order: 5;
+  }
+  .item7 {
+    order: 6;
+  }
+  .item8 {
+    order: 8;
+  }
+
 }
 
 /* -------------------Footer style Pets------------------------- */
@@ -248,4 +353,26 @@ body {
   text-decoration: none;
   font-size: 20px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+  /* -------------------Footer style------------------------- */
+  .footer {
+    max-width: 768px;
+    height: auto;
+
+}
+
+.contacts {
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 768px;
+    height: auto;
+}
+
+.contacts_info {
+  max-width: 302px;
+}
+
 }

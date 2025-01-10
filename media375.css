@@ -1,4 +1,8 @@
 @media (max-width: 430px) {
+    .header_pets__logo {
+      padding-left: 20px;
+    }
+
     .menu-icon {
         cursor: pointer;
         display: flex;
@@ -21,9 +25,9 @@
         display: none;
         margin: 0;
         position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
+        top: 25px;
+        left: 15px;
+        width: 320px;
         background-color: #292929;
       }
       
@@ -34,6 +38,8 @@
       }
       
       .menu ul li a {
+        font-weight: 100;
+        font-size: 32px;
         text-decoration: none;
         color: #666;
         padding: 10px 20px;
@@ -42,7 +48,7 @@
       }
       
       .menu ul li a:hover {
-        background: #CDCDCD;
+        color: #FFFFFF;
       }
       
       #menu-toggle:checked ~ .menu {

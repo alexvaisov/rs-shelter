@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="modal-pets.css">
     <link rel="stylesheet" href="style_pets.css">
+    <link rel="stylesheet" href="media375.css">
     
     <title>Pets</title>
 </head>
@@ -204,42 +205,42 @@
             
             <div class="wrapper" id="wrapper">
               <div class="slider" id="slider">
-                <div class="card" id="katrine">
+                <div class="card item1" id="katrine">
                   <img src="img/pets-katrine.png" alt="Katrine">
                   <p>Katrine</p>
                   <button class="card__but" data-modal="#sing-in-katrine">Learn more</button>
                 </div>
-                <div class="card" id="jennifer">
+                <div class="card item2" id="jennifer">
                   <img src="img/pets-jennifer.png" alt="Jennifer">
                   <p>Jennifer</p>
                   <button class="card__but" data-modal="#sing-in-jennifer">Learn more</button>
                 </div>
-                <div class="card" id="woody">
+                <div class="card item3" id="woody">
                   <img src="img/pets-woody.png" alt="Woody">
                   <p>Woody</p>
                   <button class="card__but" data-modal="#sing-in-woody">Learn more</button>
                 </div>
-                <div class="card" id="sophia">
+                <div class="card item4" id="sophia">
                   <img src="img/pets-sophia.png" alt="Sophia">
                   <p>Sophia</p>
                   <button class="card__but" data-modal="#sing-in-sophia">Learn more</button>
                 </div>
-                <div class="card" id="timmy">
+                <div class="card item5" id="timmy">
                   <img src="img/pets-timmy.png" alt="Timmy">
                   <p>Timmy</p>
                   <button class="card__but" data-modal="#sing-in-timmy">Learn more</button>
                 </div>
-                <div class="card" id="charly">
+                <div class="card item6" id="charly">
                   <img src="img/pets-charly.png" alt="Charly">
                   <p>Charly</p>
                   <button class="card__but" data-modal="#sing-in-charly">Learn more</button>
                 </div>
-                <div class="card" id="scarlett">
+                <div class="card item7" id="scarlett">
                   <img src="img/pets-scarlet.png" alt="Scarlett">
                   <p>Scarlett</p>
                   <button class="card__but" data-modal="#sing-in-scarlett">Learn more</button>
                 </div>
-                <div class="card" id="freddie">
+                <div class="card item8" id="freddie">
                   <img src="img/pets-freddie.png" alt="Freddie">
                   <p>Freddie</p>
                   <button class="card__but" data-modal="#sing-in-freddie">Learn more</button>
@@ -250,9 +251,9 @@
           </div>
           <div class="pets__buttons">
             <button class="pets-button">&#171;</button>
-            <button class="pets-button">&#8249;</button>
-            <button class="pets-button counter">1</button>
-            <button class="pets-button">&#8250;</button>
+            <button class="pets-button" id="slider-back">&#8249;</button>
+            <button class="pets-button" id="counter" onclick="changeText">1</button>
+            <button class="pets-button" id="slider-next">&#8250;</button>
             <button class="pets-button">&#187;</button>
           </div>
         </section>
@@ -276,7 +277,9 @@
           </div>
         </section>
       </footer>
-
+    
+    <script src="main.js"></script>
     <script src="modal.js"></script>
+    <script src="slider-pets.js"></script>
 </body>
 </html>
